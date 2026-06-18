@@ -1,0 +1,8 @@
+matplotlib>=3.8
+numpy>=1.24
+pandas>=2.0
+xgboost>=2.0
+
+# Needed only for fresh TradeStation pulls through the connector wrapper.
+requests>=2.31
+python-dotenv>=1.0

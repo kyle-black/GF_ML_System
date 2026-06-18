@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gf-ml-system"
+version = "0.1.0"
+description = "TES intermarket ML pipeline for futures signals."
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "xgboost>=2.0",
+]
+
+[project.optional-dependencies]
+tradestation = [
+  "requests>=2.31",
+  "python-dotenv>=1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

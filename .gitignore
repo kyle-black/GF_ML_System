@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local TradeStation pulls and ML run artifacts
+data/historical_data/
+data/historical_data_60min/
+data/ml/
